@@ -1,0 +1,52 @@
+# ----------------------------
+# Node.js / Backend
+# ----------------------------
+# Node modules
+/backend/node_modules/
+# Environment variables
+/backend/.env
+# Logs
+/backend/logs/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+# Build output
+/backend/dist/
+# Sequelize generated files (optional)
+/backend/*.sqlite
+/backend/*.sqlite3
+
+# ----------------------------
+# React / Frontend
+# ----------------------------
+# Node modules
+/frontend/node_modules/
+# Build output
+/frontend/build/
+/frontend/dist/
+/frontend/.turbo/
+/frontend/.next/
+/frontend/.cache/
+/frontend/.pnp.*
+# Environment variables
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development
+/frontend/.env.test
+/frontend/.env.production
+
+# Logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional
+.idea/
+*.swp
